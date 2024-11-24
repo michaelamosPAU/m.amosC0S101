@@ -47,11 +47,11 @@ fn main() {
     let mut total_amount = 0.0;
     
     // Loop through structs
-    for product in &products{
-        total_quantity += product.quantity;
-        total_amount += product.amount;
-    };
-    
+        for product in &products{
+            total_quantity += product.quantity;
+            total_amount += product.amount;
+        };
+        
     // Calculate Average
     let total_average = total_amount / total_quantity;
     

@@ -26,7 +26,7 @@ fn main(){
         else if 5 < number_of_papers && number_of_papers < 10 {
             println!("\nHello {}The incentive you received is ₦800,000", name);
         }
-        else if number_of_papers > 10 {
+        else if number_of_papers >= 10 {
             println!("\nHello {}The incentive you received is ₦1,000,000", name);
         }
         else if number_of_papers < 3{
