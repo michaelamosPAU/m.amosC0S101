@@ -8,7 +8,7 @@ fn main() {
 
     while condition.trim() != "1" {
         let mut input = String::new();
-        println!("\nWhat would you like to eat (Type out the letter P, F, A, E, W as shown above for the item you want)?");
+        println!("\nWhat would you like to eat (Select one out the letter P, F, A, E, W as shown above for the item you want)?");
         io::stdin().read_line(&mut input).expect("Failed to read value");
         let choice = input.trim().to_lowercase(); // Convert to lowercase directly
 
